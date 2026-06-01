@@ -72,7 +72,7 @@
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃  A/CTRL   ┃   S/GUI   ┃   D/ALT   ┃  F/SHFT   ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;     ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     K     ┃     M     ┃     ,     ┃     .     ┃     /     ┃           ┃
+            // ┃ ESC/CTRL  ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     K     ┃     M     ┃     ,     ┃     .     ┃     /     ┃           ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -80,7 +80,7 @@
             bindings = <
                   &kp Q       &kp W       &kp E         &kp R        &kp T            &kp Y        &mt RSHFT U  &mt RALT I     &mt RGUI O  &mt RCTRL P
                   &mt LCTRL A &mt LGUI S  &mt LALT D    &mt LSHFT F  &kp G            &kp H        &kp J        &kp K          &kp L      &kp SEMI
-&kp LEFT_CONTROL  &kp Z       &kp X       &kp C         &kp V        &kp B            &kp N        &kp M        &kp COMMA      &kp DOT     &kp SLASH       &kp APOS
+&mt LCTRL ESC     &kp Z       &kp X       &kp C         &kp V        &kp B            &kp N        &kp M        &kp COMMA      &kp DOT     &kp SLASH       &kp APOS
                                           &kp LEFT_GUI  &kp TAB      &lt NAV SPACE    &lt SYM RET  &kp BSPC     &kp LEFT_ALT
             >;
         };
