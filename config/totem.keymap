@@ -106,20 +106,20 @@
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     -     ┃     7     ┃     8     ┃     9     ┃     /     ┃
+            //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     -     ┃  7/SHFT   ┃   8/ALT   ┃   9/GUI   ┃  //CTRL   ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃     ^     ┃     &     ┃     *     ┃     (     ┃     )     ┃   ┃     +     ┃     4     ┃     5     ┃     6     ┃     *     ┃
+            //             ┃  ^/CTRL   ┃   &/GUI   ┃   */ALT   ┃  (/SHFT   ┃     )     ┃   ┃     +     ┃     4     ┃     5     ┃     6     ┃     *     ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃ CAPS WORD ┃     `     ┃     [     ┃     ]     ┃     {     ┃     }     ┃   ┃     =     ┃     1     ┃     2     ┃     3     ┃     .     ┃   ENTER   ┃
+            // ┃ CAPS WORD ┃     _     ┃     [     ┃     ]     ┃     {     ┃     }     ┃   ┃     =     ┃     1     ┃     2     ┃     3     ┃     .     ┃   ENTER   ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃           ┃    ADJ    ┃   ┃    ADJ    ┃           ┃     0     ┃
+            //                                     ┃     `     ┃     \     ┃    ADJ    ┃   ┃    ADJ    ┃           ┃     0     ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp EXCL     &kp AT     &kp HASH      &kp DLLR  &kp PRCNT    &kp MINUS  &kp N7  &kp N8  &kp N9  &kp SLASH
-            &kp CARET    &kp AMPS   &kp ASTERISK  &kp LPAR  &kp RPAR     &kp PLUS   &kp N4  &kp N5  &kp N6  &kp ASTERISK
-&caps_word  &kp GRAVE    &kp LBKT   &kp RBKT      &kp LBRC  &kp RBRC     &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp DOT  &kp RET
-                                      &trans     &trans     &mo ADJ      &mo ADJ    &trans  &kp N0
+            &kp EXCL       &kp AT      &kp HASH         &kp DLLR      &kp PRCNT    &kp MINUS  &mt RSHFT N7  &mt RALT N8  &mt RGUI N9  &mt LCTRL SLASH
+            &mt RCTRL CARET  &mt LGUI AMPS  &mt LALT ASTERISK  &mt LSHFT LPAR  &kp RPAR     &kp PLUS   &kp N4        &kp N5       &kp N6       &kp ASTERISK
+&caps_word  &kp UNDER      &kp LBKT    &kp RBKT         &kp LBRC      &kp RBRC     &kp EQUAL  &kp N1        &kp N2       &kp N3       &kp DOT      &kp RET
+                                             &kp GRAVE  &kp BSLH     &mo ADJ      &mo ADJ    &trans       &kp N0
             >;
         };
 
